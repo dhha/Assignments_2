@@ -6,6 +6,7 @@ plugins {
 android {
     namespace 'com.example.assignments_2'
     compileSdk 33
+    buildFeatures{ viewBinding = true}
 
     defaultConfig {
         applicationId "com.example.assignments_2"
